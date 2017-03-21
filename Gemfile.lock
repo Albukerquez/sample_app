@@ -119,6 +119,7 @@ GEM
     nio4r (2.0.0)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
+    normalize-rails (4.1.1)
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -225,6 +226,7 @@ DEPENDENCIES
   mini_backtrace
   mini_magick
   minitest-reporters (= 1.1.14)
+  normalize-rails
   pg (~> 0.18)
   puma (~> 3.0)
   rails (~> 5.0.2)
