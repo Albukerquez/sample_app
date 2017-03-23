@@ -232,7 +232,7 @@ DEPENDENCIES
   minitest-reporters (= 1.1.14)
   normalize-rails
   pg (~> 0.18)
-  puma (~> 3.0)
+  puma
   rails (~> 5.0.2)
   rails-controller-testing
   rails_12factor
