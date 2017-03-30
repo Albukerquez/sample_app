@@ -2,7 +2,6 @@
 
 * by Michael Hartl
 * Learning web Development
-* TEST
-* some changes
+* Fully ready to work app
 
 
