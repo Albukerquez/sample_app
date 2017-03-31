@@ -144,6 +144,45 @@ aside {
   margin-top: 15px;
 }
 
+.stats {
+  overflow: auto;
+  margin-top: 0;
+  padding: 0;
+  a {
+    margin-top: 15px;
+    float: left;
+    padding: 0 10px;
+    border-left: 1px solid $gray-lighter;
+    color: gray;
+    &:first-child {
+      padding-left: 0;
+      border: 0;
+    }
+    &:hover {
+      text-decoration: none;
+      color: #337ab7;
+    }
+  }
+  strong {
+    display: block;
+  }
+}
+
+.user_avatars {
+  overflow: auto;
+  margin-top: 10px;
+  .gravatar {
+    margin: 1px 1px;
+  }
+  a {
+    padding: 0;
+  }
+}
+
+.users.follow {
+  padding: 0;
+}
+
 /* forms */
 
 input, textarea, select, .uneditable-input {
@@ -311,3 +350,27 @@ a:hover, a:focus {
 .btn.btn-primary {
   padding: 5px 10px;
 }
+#unfollow:hover {
+    background-color: #9F9F9F;
+    color: #fff;
+}
+
+#follow:hover {
+    background-color: #ae3610;
+    color: #fff;
+  }
+#follow:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+    background-color: #eb5424;
+    color: #fff;
+    border-color: transparent;
+}
+
+#follow:active:hover, #follow:focus {
+    color: #fff;
+    background-color: #a9340f;
+    border-color: #6c220a;
+}
+
